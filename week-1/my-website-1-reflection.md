@@ -4,22 +4,20 @@ https://github.com/buckmelton/buckmelton.github.io
 
 * Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
 
-  Create a new repository on GitHub and clone it to your local computer:
+    - On GitHub choose "Create New Repository"
+    - Name the repository
+    - Make it public or private
+    - Choose whether to auto-include a README file
+    - Choose a license (for DBC we've been using MIT License)
+    - Click "Create"
+    - Copy the URL for cloning
 
-- On GitHub choose "Create New Repository"
-- Name the repository
-- Make it public or private
-- Choose whether to auto-include a README file
-- Choose a license (for DBC we've been using MIT License)
-- Click "Create"
-- Copy the URL for cloning
+    - On your local computer, navigate to the directory in which you want the repository directory to be created.  To be clear, whatever directory you are in, Git will be creating a subdirectory with the name of the repository, and the files for that repository will be inside the Git-created subdirectory.
+    - At the command line enter
 
-- On your local computer, navigate to the directory in which you want the repository directory to be created.  To be clear, whatever directory you are in, Git will be creating a subdirectory with the name of the repository, and the files for that repository will be inside the Git-created subdirectory.
-- At the command line enter
+    git clone
 
-git clone
-
-then paste the URL after and enter.
+      then paste the URL after and enter.
 
 
 * Describe what open source means.
