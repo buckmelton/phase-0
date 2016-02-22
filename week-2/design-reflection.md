@@ -1,4 +1,4 @@
-![Site Map for Buck's Career Website](/imgs/site-map.png "Site Map for Buck's Career Website")
+![Site Map for Buck's Career Website](imgs/site-map.png "Site Map for Buck's Career Website")
 
 
 1. What are the 6 Phases of Web Design?
