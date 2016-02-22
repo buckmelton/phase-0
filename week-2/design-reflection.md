@@ -1,4 +1,4 @@
-![Site Map for Buck's Career Website](/imgs/site-map.png "Site Map for Buck's Career Website")
+![Site Map for Buck's Career Website](imgs/site-map.png "Site Map for Buck's Career Website")
 
 
 1. What are the 6 Phases of Web Design?
@@ -9,7 +9,7 @@
   4. Development
   5. Testing and Delivery
   6. Maintenance
-  
+
 
 2. What is your site's primary goal or purpose? What kind of content will your site feature?
 
