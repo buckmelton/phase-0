@@ -9,7 +9,7 @@
   4. Development
   5. Testing and Delivery
   6. Maintenance
-  
+
 
 2. What is your site's primary goal or purpose? What kind of content will your site feature?
 
