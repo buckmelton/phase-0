@@ -1,0 +1,119 @@
+html {
+  background-color: white;
+}
+
+body {
+  color: #000080;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+.two-col {
+  -webkit-column-count: 2;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.two-col li {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+li {
+	-webkit-column-break-inside: avoid;
+}
+
+.desc {
+  font-size: 10px;
+}
+
+.ad {
+	text-align: center;
+}
+
+.feedback {
+	font-size: 12px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  white-space: pre;
+}
+
+.bigger-cap {
+  font-size: 30px;
+}
+
+img {
+  margin: auto;
+}
+
+.my-hr {
+	width: 100%;
+	height: 1px;
+	background-color: #999999;
+}
+
+/*
+
+REFLECTION 3.3 - BEGINNING CSS
+
+- What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+	It's important to know the syntax of the "link" element for stylesheets.
+
+	It's also important to know the location of the stylesheet, which hopefully is a best practices location
+	like a directory named "style", "css", or "stylesheets" that is either at the same level as the html file or the same level as the folder enclosing the html file.
+
+- What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+	All the tricks.  OK, maybe not all.  But we had to look up a lot of CSS stuff, such as:
+	- column-count
+	- webkit-column-count
+	- webkit-column-break-inside
+	- white-space
+
+	It was pretty hard to get the columns right, particularly because we didn't know you had to use browser-specific attributes.
+	We also couldn't figure out how to get the top of each column to be even.  We found out that the actual Berkshire site uses tables,
+	which is how they got the top of each column to align with each other.
+
+	All the other stuff was pretty standard, except for using a 'div' to simulate an <hr>.
+
+- What CSS did you use to modify the element style (like size, color, etc.)
+
+	- color
+	- font-size
+	- font-weight
+	- text-align
+
+- Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+	Yes, we used many classes, but no id's.
+	The question "which did you choose".  Which what?  Which HTML did we choose?  Which classes did we choose?  This question doesn't make a lot of sense to me.
+	We created classes to reflect the styling and layout needed for the various sections of text.  We then applied those classes to the sections of text we'd
+	created them for.
+
+- When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+	I humbly submit that we had cleaner code with best practices:
+
+	On the actual site, all the styling was in the HTML file.  While it was simple enough that maintenance or simple one-for-one changes
+	would probably be no big deal, if there were more complicated changes they would have more of a challenge.  We used a stylesheet which encapsulated
+	all the style and layout, which would allow for a lot more flexibility and ease of change in the future.
+
+	On the actual site, they used tables.  While tables can be very handy, and maybe in this case justifiable because they are limited to the list
+	of links, they are no longer considered best practice because of their brittleness.  Our site uses semantic tags which are currently considered
+	best practice.
+
+	On the actual, there were lots of superfluous empty elements, particularly empty <p> and <a> elements.  This was weird.  Maybe they are placeholders
+	for when they have updates to the page come out that need to use those spots?  Anyway, they just add a lot of extra, confusing code.
+
+*/
