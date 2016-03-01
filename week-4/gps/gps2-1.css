@@ -1,3 +1,41 @@
-body {
-	
+header {
+  background-color: #2F7599;
+  border: 2px solid black;
+  border-radius: 1em;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.column-1 {
+  float: left;
+  display: inline-block;
+  width: 46%;
+  background-color: #AAB3AB;
+  padding: 1em;
+}
+
+.column-1 h2 {
+  color: red;
+}
+
+.column-2 {
+  float: right;
+  display: inline-block;
+  background-color: #AAB3AB;
+  padding: 1em;
+  width: 46%;
+}
+
+a {
+  color: blue;
+}
+
+footer {
+  clear: both;
+  background-color: #2F7599;
+  padding: 1em;
+}
+
+header, footer {
+  background-color: green;
 }
