@@ -1,5 +1,13 @@
 # Reflection - Challenge 4.2 - Numbers, Letter, and Variable Assignments
 
+* Links To Challenge Solution Files:
+
+	[4.2.1 Defining Variables](https://github.com/buckmelton/phase-0/blob/master/week-4/defining-variables.rb)
+
+	[4.2.2 Simple String Methods](https://github.com/buckmelton/phase-0/blob/master/week-4/simple-string.rb)
+
+	[4.2.3 Local Variables and Basic Arithmetical Operations](https://github.com/buckmelton/phase-0/blob/master/week-4/basic-math.rb)
+
 * What does puts do?
 
   `puts` writes the result of an operation to the console, and returns `nil`
