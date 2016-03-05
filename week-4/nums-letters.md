@@ -32,3 +32,32 @@
 	=> nil
 	```
 	(Note: the "+ 3" is to account for the 3 additional leap days in a typical decade.)
+
+* How does Ruby handle addition, subtraction, multiplication, and division of numbers?
+
+	With the normal operators +, -, *, /.
+
+* What is the difference between integers and floats?
+
+	Integers are whole numbers, with no fractions or decimal points.  E.g. 10
+	Floating-point numbers have a decimal point, and so include fractions or portions of whole numbers.  E.g. 10.2
+
+* What is the difference between integer and float division?
+
+	Integer division produces only a whole number.  Any fractional part is dropped.  E.g. 10 / 4 = 2 (the .5 is dropped).
+	Float division retains any fractional part.  10 / 4 = 2.5.
+
+* What are strings? Why and when would you use them?
+
+	A string is a sequence of 0 or more letters.  You would use them to represent any kind of text.
+
+* What are local variables? Why and when would you use them?
+
+	A local variable is a name for a value.  Put another way, a local variable represents a value.
+	A variable's value can change, while the variable name remains the same.
+	For example, the variable my_address can be assigned to stand for '407 Trenton St'.
+	If I move, the same variable my_address can be updated to stand for '503 Lexington Dr'.
+
+* How was this challenge? Did you get a good review of some of the basics?
+
+	I have a programming background so this challenge was pretty easy!
