@@ -19,18 +19,22 @@
 
 # 1. total initial solution
 
-def total ( numbers )
-
-	answer = 0
-	numbers.each do |thisNum|
-		answer += thisNum
-	end
-	return answer
-end
+# def total ( numbers )
+#
+# 	answer = 0
+# 	numbers.each do |thisNum|
+# 		answer += thisNum
+# 	end
+# 	return answer
+# end
 
 # 3. total refactored solution
 
+def total ( numbers )
 
+	return numbers.reduce(:+);
+
+end
 
 # 4. sentence_maker pseudocode
 # make sure all pseudocode is commented out!
