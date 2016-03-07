@@ -24,7 +24,12 @@ puts 'That\'s nice, but this is a bigger and better number: ' + bb_num.to_s
 # Reflection: 4.3 Variables and Methods
 #
 # Links to solution files:
-# 
+
+#   4.3.1 Return a Formatted Address
+#   https://github.com/buckmelton/phase-0/blob/master/week-4/address/my_solution.rb
+#  
+#   4.3.2 Defining Math Methods
+#   https://github.com/buckmelton/phase-0/blob/master/week-4/math/my_solution.rb
 #
 # * How do you define a local variable?
 #
