@@ -1,5 +1,8 @@
 # acct_groups(names)
 #
+# I worked on this by myself.
+# I spent 2 hours on this challenge.
+#
 # Input:
 # An array of names
 #
