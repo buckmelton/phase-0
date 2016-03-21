@@ -58,7 +58,7 @@ startup_names = ["bit", ["find", "fast", ["optimize", "scope"]]]
 
 - What are some general rules you can apply to nested arrays?
 
-	The number of levels down you want to access need to be mirrord
+	The number of levels down you want to access need to be mirrored
 	by the number of bracket pairs for the indesing.
 
 - What are some ways you can iterate over nested arrays?
