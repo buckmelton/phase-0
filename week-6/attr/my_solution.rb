@@ -2,7 +2,7 @@
 
 # I worked on this challenge by myself.
 
-# I spent [#] hours on this challenge.
+# I spent 2 hours on this challenge.
 
 # NameData will initialize a @name variable with your name.
 # Greetings will initialize an instance of NameData and include a method to display a salutation to the console.
