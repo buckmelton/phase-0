@@ -1,6 +1,6 @@
 # A Nested Array to Model a Bingo Board SOLO CHALLENGE
 
-# I spent 4 hours on this challenge.
+# I spent 5.5 hours on this challenge.
 
 # Keep all of the logic and variables inside of the class BingoBoard. Method calls should be outside.
 # Initialize a new instance of the BingoBoard using the provided board array.
@@ -364,7 +364,5 @@ end
 
   Generating a random bingo board with proper numbers and calls.
 
-
-  
 
 =end
