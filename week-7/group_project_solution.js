@@ -15,7 +15,7 @@ function mean(list) {
   return sum(list) / list.length;
 }
 
-// Note from Person #4 (Buck): I believe the function below, 'median'
+// Note from Person #5 (Buck): I believe the function below, 'median'
 // may be broken?  I can't know for sure since, per the instructions,
 // I don't have access to the original spec/tests. But I do know that
 // the function doesn't always calculate the median.  According to the
@@ -36,7 +36,7 @@ function median(list) {
     return (ordered_list[midPoint - 1] + ordered_list[midPoint]) / 2;
 }
 
-// Person 4's (Buck's) Driver Code
+// Person 5's (Buck's) Driver Code
 var list1 = [0];
 var list2 = [1,1,1,1,1,1];
 var list3 = [1,2,3,4,5,6];
