@@ -2,8 +2,8 @@
 // As a user, I want to get the sum of all the numbers in a list.
 function sum(list) {
 
-  return list.reduce(function(previousValue, currentValue, currentIndex, array) {
-                return previousValue + currentValue;
+  return list.reduce(function(prevVal, curVal, curIndex, array) {
+                return prevVal + curVal;
               });
 
 }
