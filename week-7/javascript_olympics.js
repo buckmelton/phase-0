@@ -77,10 +77,19 @@ console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps
 /*
 - What JavaScript knowledge did you solidify in this challenge?
 
-  
+  Object literal notation, adding and deleting properties outside of the object,
+  manipulating strings in JavaScript, creating and using object contructors.
 
 - What are constructor functions?
 
-
+  A constructor function is a function that creates an object.  Contructor functions
+  are used when you need to create multiple instances of the same type of object.
 
 - How are constructors different from Ruby classes (in your research)?
+
+  They are very similar.  Constructors don't seem like true 'classes', for example
+  I'm not sure there is a way to have a class variable in JavaScript.  Classes
+  typically have plenty of methods defined in them.  It seems awkward to declare
+  lots of functions inside a constructor, but maybe this is considered normal in
+  JavaScript.  Otherwise you can declare the method as part of the 'prototype' of
+  the JavaScript class.
