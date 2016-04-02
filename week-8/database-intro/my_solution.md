@@ -6,61 +6,61 @@ Create SQL Queries for the following: (Make sure all queries end with a semi-col
 
 ### 1. Select all data for all states.
 
-sqlite> select * from states;
+	sqlite> select * from states;
 
-id          state_name  population_density  population  region_id
-----------  ----------  ------------------  ----------  ----------
-1           Alabama     96.45               4822023     5
-2           Alaska      1.1111              731449      10
-3           Arizona     57.05               6553255     8
-4           Arkansas    56.43               2949131     7
-5           California  244.2               38041430    9
-6           Colorado    49.33               5187582     8
-7           Connecticu  741.4               3590347     1
-8           Delaware    470.7               917092      3
-9           Florida     360.2               19317568    3
-10          Georgia     172.5               9919945     3
-11          Hawaii      216.8               1392313     11
-12          Idaho       19.15               1595728     8
-13          Illinois    231.9               12875255    4
-14          Indiana     182.5               6537334     4
-15          Iowa        54.81               3074186     6
-16          Kansas      35.09               2885905     6
-17          Kentucky    110.0               4380415     5
-18          Louisiana   105.0               4601893     7
-19          Maine       43.04               1329192     1
-20          Maryland    606.2               5884563     3
-21          Massachuse  852.1               6646144     1
-22          Michigan    174.8               9883360     4
-23          Minnesota   67.14               5379139     6
-24          Mississipp  63.5                2984926     5
-25          Missouri    87.26               6021988     6
-26          Montana     6.86                1005141     8
-27          Nebraska    23.97               1855525     6
-28          Nevada      24.8                2758931     8
-29          New Hampsh  147.0               1320718     1
-30          New Jersey  1205.0              8864590     2
-31          New Mexico  17.16               2085538     8
-32          New York    415.3               19570261    2
-33          North Caro  200.6               9752073     3
-34          North Dako  9.92                699628      6
-35          Ohio        282.5               11544225    4
-36          Oklahoma    55.22               3814820     7
-37          Oregon      40.33               3899353     9
-38          Pennsylvan  285.3               12763536    2
-39          Rhode Isla  1016.0              1050292     1
-40          South Caro  157.1               4723723     3
-41          South Dako  10.86               833354      6
-42          Tennessee   156.6               6456243     5
-43          Texas       98.07               26059203    7
-44          Utah        34.3                2855287     8
-45          Vermont     67.73               626011      1
-46          Virginia    207.3               8185867     3
-47          Washington  102.6               6724540     9
-48          Washington  10357.0             632323      3
-49          West Virgi  77.06               1855413     3
-50          Wisconsin   105.2               5726398     4
-51          Wyoming     5.851               576412      8
+	id          state_name  population_density  population  region_id
+	----------  ----------  ------------------  ----------  ----------
+	1           Alabama     96.45               4822023     5
+	2           Alaska      1.1111              731449      10
+	3           Arizona     57.05               6553255     8
+	4           Arkansas    56.43               2949131     7
+	5           California  244.2               38041430    9
+	6           Colorado    49.33               5187582     8
+	7           Connecticu  741.4               3590347     1
+	8           Delaware    470.7               917092      3
+	9           Florida     360.2               19317568    3
+	10          Georgia     172.5               9919945     3
+	11          Hawaii      216.8               1392313     11
+	12          Idaho       19.15               1595728     8
+	13          Illinois    231.9               12875255    4
+	14          Indiana     182.5               6537334     4
+	15          Iowa        54.81               3074186     6
+	16          Kansas      35.09               2885905     6
+	17          Kentucky    110.0               4380415     5
+	18          Louisiana   105.0               4601893     7
+	19          Maine       43.04               1329192     1
+	20          Maryland    606.2               5884563     3
+	21          Massachuse  852.1               6646144     1
+	22          Michigan    174.8               9883360     4
+	23          Minnesota   67.14               5379139     6
+	24          Mississipp  63.5                2984926     5
+	25          Missouri    87.26               6021988     6
+	26          Montana     6.86                1005141     8
+	27          Nebraska    23.97               1855525     6
+	28          Nevada      24.8                2758931     8
+	29          New Hampsh  147.0               1320718     1
+	30          New Jersey  1205.0              8864590     2
+	31          New Mexico  17.16               2085538     8
+	32          New York    415.3               19570261    2
+	33          North Caro  200.6               9752073     3
+	34          North Dako  9.92                699628      6
+	35          Ohio        282.5               11544225    4
+	36          Oklahoma    55.22               3814820     7
+	37          Oregon      40.33               3899353     9
+	38          Pennsylvan  285.3               12763536    2
+	39          Rhode Isla  1016.0              1050292     1
+	40          South Caro  157.1               4723723     3
+	41          South Dako  10.86               833354      6
+	42          Tennessee   156.6               6456243     5
+	43          Texas       98.07               26059203    7
+	44          Utah        34.3                2855287     8
+	45          Vermont     67.73               626011      1
+	46          Virginia    207.3               8185867     3
+	47          Washington  102.6               6724540     9
+	48          Washington  10357.0             632323      3
+	49          West Virgi  77.06               1855413     3
+	50          Wisconsin   105.2               5726398     4
+	51          Wyoming     5.851               576412      8
 
 
 ### 2. Select all data for all regions.
@@ -402,7 +402,7 @@ Hawaii       Tropical Pa
 
 ## Release 6 - Your Own Schema
 
-![Clueless Outfit Schema](clueless-outfit-schema.jpg)
+![Clueless Outfits Schema](clueless-outfits-schema.jpg)
 
 ## Release 7
 ### Reflection
