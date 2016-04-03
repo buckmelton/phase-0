@@ -63,11 +63,14 @@ var officers = {
 }
 
 // Pseudocode
-// Pseudocode
 
 // Test 1:
 // Loop through each voter in the votes object
 //  Add their vote for president to the voteCount object.
+// 
+// Tests 2, 3, 4:
+// Same as Test 1 but for VP, Treasurer, and Secretary.
+//
 //
 // Test 5:
 // Find who got the most votes for President
@@ -77,24 +80,11 @@ var officers = {
 //     If candidate's vote > current max votes
 //     Candidate is new president
 // Assign new president's name to officers.president
+//
+// Tests 6, 7, 8:
+// Same as Test 5 but for VP, Treasurer, and Secretary.
 // __________________________________________
 // Initial Solution
-/*
-for (var key in votes) {
-    // skip loop if the property is from prototype
-    if (!votes.hasOwnProperty(key)) continue;
-
-    var obj = votes[key];
-    for (var prop in obj) {
-        // skip loop if the property is from prototype
-        if(!obj.hasOwnProperty(prop)) continue;
-
-        // your code
-        alert(prop + " = " + obj[prop]);
-    }
-}
-*/
-
 
 // for (var voter in votes) {
 //   var presVote = votes[voter].president;
