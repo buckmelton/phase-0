@@ -5,18 +5,64 @@
 
 # Your Solution Below
 
-def add(num_1, num_2)
- return num_1 + num_2
+# def add(num_1, num_2)
+#  return num_1 + num_2
+# end
+#
+# def subtract(num_1, num_2)
+#  return num_1 - num_2
+# end
+#
+# def multiply(num_1, num_2)
+#  return num_1 * num_2
+# end
+#
+# def divide(num_1, num_2)
+#  return num_1.to_f / num_2.to_f
+# end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Review 9/19/16
+
+def add(num1, num2)
+  num1 + num2
 end
 
-def subtract(num_1, num_2)
- return num_1 - num_2
+def subtract(num1, num2)
+  num1 - num2
 end
 
-def multiply(num_1, num_2)
- return num_1 * num_2
+def multiply(num1, num2)
+  num1 * num2
 end
 
-def divide(num_1, num_2)
- return num_1.to_f / num_2.to_f
+def divide(num1, num2)
+  num1.to_f / num2.to_f
 end
